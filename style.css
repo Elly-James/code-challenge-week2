@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(-45deg, #415800, #e560dc, #ffb374, #ef5f5f, #d840b6);
+    background-size: 400% 400%;
+    animation: bg 12s ease infinite; /*puts animation to our page*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    counter-reset: paragraph-counter; /* Initialize the counter */
+}
+
+@keyframes bg {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.container {
+    background-color: #1a1a1a; /* Softer black (dark grey) */
+    color: white;
+    width: 500px;
+    height: 600px;
+    max-width: 500px;
+    max-height: 800px;
+    padding: 3em;
+    margin: auto;
+    border-radius: 15px; /* Smooth corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    justify-content: space-between;
+    letter-spacing: 2px;
+    font-size: 20px;
+    overflow: auto; /* Allows scrolling if content overflows */
+}
+
+h3{
+    font-size: 30px;
+}
+h4{
+    font-size: 23px;
+}
+
+
+
+#new-item
+{
+    width: 35%;
+    padding: 1.5em;
+    font-size: 18px;
+    color: black;
+    background: rgb(241, 241, 241) ;
+    border-radius: .8rem;
+    margin: 1rem 0;
+    resize: none;
+
+}
+
+
+
+.item {
+    margin-bottom: 1em;
+}
+
+
+p {
+    counter-increment: paragraph-counter; /* Increment the counter for each <p> */
+    position: relative; /* Allow positioning the number inside the <p> */
+    padding-left: 2em; /* Add space for the number */
+}
+
+p::before {
+    content: counter(paragraph-counter) ". "; /* Display the counter */
+    position: absolute; /* Position the number */
+    left: 0; /* Align the number to the left */
+    color: #007bff; /* Add some color to the number for styling */
+    font-weight: bold; /* Make the number bold */
+}
+.btn {
+    background-color: #007bff; /* Blue button background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 1em 1em; /* Increased padding for bigger buttons */
+    font-size: 18px; /* Increased font size for the text */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+
+
+.purchased_btn {
+    background-color:green; /* green background */
+    color: white;
+    border: none;
+    width: 20px; /* Square size */
+    height: 20px; /* Square size */
+    border-radius: 5px; /* Slightly rounded edges */
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.purchased_btn:hover {
+    background-color: green; /* green hover */
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+.delete_btn {
+    background-color: #ff4d4d; /* Red background */
+    color: white;
+    border: none;
+    width: 20px; /* Square size */
+    height: 20px; /* Square size */
+    border-radius: 5px; /* Slightly rounded edges */
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.delete_btn:hover {
+    background-color: #d93636; /* Darker red on hover */
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
