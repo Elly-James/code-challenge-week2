@@ -1,5 +1,6 @@
 # The fundamentals of the DOM and JavaScript Event Listeners
-Mastering the fundamental concepts of the **Document Object Module** and **JavaScript Event Listeners** is essential for a webDeveloper to building a strong foundation in learning JavaScript language and building good interactive and responsive websites.
+Check out the[Live Link](https://elly-james.github.io/code-challenge-week2/)
+Mastering the fundamental concepts of the **Document Object Module** and **JavaScript Event Listeners** is essential for a WebDeveloper to build a strong foundation in learning JavaScript language and building good interactive and responsive websites.
 
 The programs below focus on key areas that are crucial for understanding and advancing in DOM and  JavaScript Event Listeners for a responsive website.
 
@@ -18,11 +19,11 @@ The index.js file does the following
 2. The files enables the user to add a file to the page, where the user can input an element in the form and click submit button to add the element in the empty array.
 3. The element added is added together with the 2 buttons, green and orange, where the green button is the ``purchase button`` while the orange button is the ``delete button``
 4. Next, if the user clicks the green button, the button gets clicked with **tick symbol**, and the element to purchase gets **striken through**.
-5. If a user cliks the orange button, the first click will mark the button with an **X** indicating the item should be deleted from the list
+5. If a user clicks the orange button, the first click will mark the button with an **X** indicating the item should be deleted from the list
 6. The second click of the orange button enables the user to delete the item from the list
 7. At the end of the file, the user can click the ``The list is now okay button``  and gets an alert message that ``my list is now okay and updated``
 8. Lastly, the user can be able to print the list by clicking the ``print my list`` button  and gets an alert message that ``Printing.....Check the console for the shopping list``
-9. Therefore, this gives us a responsive website which a user can iteract with and modify changes visually
+9. Therefore, this gives us a responsive website which a user can interact with and modify changes visually
 
 
 ## Prerequisites
