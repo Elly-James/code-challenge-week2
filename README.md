@@ -1,5 +1,6 @@
 # The fundamentals of the DOM and JavaScript Event Listeners
-Check out the[Live Link](https://elly-james.github.io/code-challenge-week2/)
+Check out the  [Live Link](https://elly-james.github.io/code-challenge-week2/)
+
 Mastering the fundamental concepts of the **Document Object Module** and **JavaScript Event Listeners** is essential for a WebDeveloper to build a strong foundation in learning JavaScript language and building good interactive and responsive websites.
 
 The programs below focus on key areas that are crucial for understanding and advancing in DOM and  JavaScript Event Listeners for a responsive website.
