@@ -128,7 +128,7 @@ document.querySelector("#alert").addEventListener("click", () => {
 
 document.querySelector("#print").addEventListener("click", () => {
     console.log("Shopping List:", arrayToStoreItems.join(", "));                        // Joins all elements of the arrayToStoreItems array into a single string.
-                                                                                        // Each element is separated by a comma and a space (, ).
+                                                                                        // Each element is separated by a comma and a space (, ) and the array is printed in the console of the browser.
    
     alert("Printing.....Check the console for the shopping list.");
 });
