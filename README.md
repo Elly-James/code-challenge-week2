@@ -27,7 +27,7 @@ The index.js file does the following
 9. Therefore, this gives us a responsive website which a user can interact with and modify changes visually
 
 
-## Prerequisites
+## Prerequisites   
 
 VsCode Install to view the codes
 
