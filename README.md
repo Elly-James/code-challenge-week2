@@ -7,7 +7,7 @@ The programs below focus on key areas that are crucial for understanding and adv
 
 ## HTML File
 The index.html file gives the DOM the content to be displayed on the page.
-
+ 
 In the HTML structure we have input field for adding items ``form``, a list container to display items, and button for Add ``the submit button of the form``, Mark Purchased buttons ``the buttons with green color``, and Clear List ``the buttons with the orange color``.
 
 ## CSS File
